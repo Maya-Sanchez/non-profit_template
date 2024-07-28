@@ -38,3 +38,21 @@ header{
     text-decoration: none;
 }
 
+.post{
+    margin: 0% 25% 0% 25%;
+    background-color: white;
+    height: 100%;
+    width:50%;
+    border-radius: 5px;
+}
+
+h3{
+    font-weight: 800;
+    font-size: 2rem;
+    color:#4F57A5
+}
+
+
+
+
+
