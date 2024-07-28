@@ -43,7 +43,7 @@ header{
 .donate{
   display: flex;
   /* border: 5px #3D4377 solid; */
-  margin: 5% 5% 0% 5%
+  margin: 0% 5% 0% 5%
 }
 .amounts{
   display: flex;
@@ -141,18 +141,6 @@ header{
 }
 
 
-/* @media (max-width: 45em) {
-  .tabs .tab,
-  .tabs label {
-    order: initial;
-  } */
-  /* .tabs label {
-    width: 100%;
-    margin-right: 0;
-    margin-top: 1rem;
-    border: 2px solid salmon;
-  } */
-}
 h2{
   text-align: center;}
 
