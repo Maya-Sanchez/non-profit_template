@@ -42,11 +42,10 @@ header{
 
 .donate{
   display: flex;
-  border: 5px #3D4377 solid;
-  margin: 5%
+  /* border: 5px #3D4377 solid; */
+  margin: 5% 5% 0% 5%
 }
 .amounts{
-  
   display: flex;
   justify-content:space-between;
   margin: 0% 10%;
@@ -62,15 +61,41 @@ header{
   background-color: #aab5c3;
   border-radius: 10px;
   margin: 0% 15px;
+  flex-basis: 50%;
+  padding: 2% 0% 0% 0%;
 
 }
 
 .side1{
-  margin: 5%;
-   border:5px #ff34e1 solid;
+  width: 20%;
+  margin: 0% 5% 0% 5%;
+  /* border:5px #ff34e1 solid; */
+  display: flex;
+  flex-direction: column;
 
 }
 
+.side1 img{
+  /* border: 5px #3734ff solid; */
+  width: 100%;
+  border-radius: 15px 15px 0px 0px;
+  margin: 0%;}
+
+
+.caption{
+  background: linear-gradient(#656565, transparent);
+  margin: 0%;
+  /* border: 5px solid orange; */
+}
+
+.side1 h4{
+  text-align: center;
+  margin: 0%;
+}
+.side1 p {
+  margin: 0%;
+  color: #000000;
+}
 
 .tabs {
 	display: flex;
@@ -125,3 +150,60 @@ header{
     border: 2px solid salmon;
   } */
 }
+h2{
+  text-align: center;}
+
+
+.membership{
+/* border:1px solid pink; */
+display:flex;
+justify-content: center;
+margin: 0% 5%;
+}
+
+.DonationSummary h4{
+  margin:2% 5%;
+  font-size: 2rem;
+}
+.DonationSummary{
+  width:50%;
+   /* border:5px solid red;
+ */
+}
+
+.membership p{
+  /* border: 5px solid orange; */
+  margin: 0% 10% 0% 5%;
+}
+
+table {
+  margin-top: 0%;
+  border-collapse:collapse;
+  background-color: rgb(255, 255, 255);
+}
+
+td,th{
+  border:5px solid #4F57A5
+}
+
+td:nth-child(2),td:nth-child(3),td:nth-child(4){
+  text-align: center;
+}
+
+li{
+  text-align: left;
+}
+
+/* .benefits ~ th{
+  text-align: center;
+  text-align: left;
+}
+
+thead{
+  text-align: left;
+  font-size: 2.8rem;} */
+
+
+
+*{font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;}
+
