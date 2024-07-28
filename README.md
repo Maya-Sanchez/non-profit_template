@@ -1,5 +1,9 @@
 <!-- in this assignment I've created a website for a nonexistant non-profit organization tha supports artic wildlife -->
 
+The website allows the user to donat to wildlife in the artic as well as become and member and become a part of the community. 
+
+Link to the github repository: https://github.com/Maya-Sanchez/non-profit_template.git
+
 
 
 Assignment Specifications:
@@ -15,4 +19,5 @@ CSS Reguirements:
     - external CSS is in the Community tab 
     - External Css is located in the style.css file and and styledonate.css file
     - Flexbox was used in creating the one-time donation page and Bootstraps was used for the carousel located in the home page
+    - transition are on the navigation bar items and the photo located on the donation page
 
