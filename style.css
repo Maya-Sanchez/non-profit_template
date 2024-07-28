@@ -38,6 +38,10 @@ header{
     text-decoration: none;
 }
 
+.navbaritem:hover{
+    background-color:#9194b0 ;
+}
+
 .photo1{
     height:100%;
     width:100%;

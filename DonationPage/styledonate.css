@@ -40,6 +40,10 @@ header{
   text-decoration: none;
 }
 
+.navbaritem:hover{
+  background-color:#9194b0 ;
+}
+
 .donate{
   display: flex;
   /* border: 5px #3D4377 solid; */
@@ -68,11 +72,18 @@ header{
 
 .side1{
   width: 500px;
+  height: 500px;
   margin: 0% 5% 0% 5%;
   /* border:5px #ff34e1 solid; */
   display: flex;
   flex-direction: column;
+transition-property: width,height;
+transition-duration: 2s;
 
+}
+
+.side1:hover{
+  width: 700px;
 }
 
 .side1 img{
@@ -80,7 +91,6 @@ header{
   width: 100%;
   border-radius: 15px 15px 0px 0px;
   margin: 0%;}
-
 
 .caption{
   background: linear-gradient(#656565, transparent);
